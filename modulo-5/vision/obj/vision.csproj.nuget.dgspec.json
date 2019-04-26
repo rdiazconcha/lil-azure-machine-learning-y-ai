@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\proyectos\\lil-azure-machine-learning-y-ai\\modulo-5\\vision\\vision.csproj": {}
+  },
+  "projects": {
+    "C:\\proyectos\\lil-azure-machine-learning-y-ai\\modulo-5\\vision\\vision.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectos\\lil-azure-machine-learning-y-ai\\modulo-5\\vision\\vision.csproj",
+        "projectName": "vision",
+        "projectPath": "C:\\proyectos\\lil-azure-machine-learning-y-ai\\modulo-5\\vision\\vision.csproj",
+        "packagesPath": "C:\\Users\\booth06-mgr2\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectos\\lil-azure-machine-learning-y-ai\\modulo-5\\vision\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\booth06-mgr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

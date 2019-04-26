@@ -1,0 +1,11 @@
+C:\proyectos\lil-azure-machine-learning-y-ai\modulo-5\vision\bin\Debug\netcoreapp2.2\vision.deps.json
+C:\proyectos\lil-azure-machine-learning-y-ai\modulo-5\vision\bin\Debug\netcoreapp2.2\vision.runtimeconfig.json
+C:\proyectos\lil-azure-machine-learning-y-ai\modulo-5\vision\bin\Debug\netcoreapp2.2\vision.runtimeconfig.dev.json
+C:\proyectos\lil-azure-machine-learning-y-ai\modulo-5\vision\bin\Debug\netcoreapp2.2\vision.dll
+C:\proyectos\lil-azure-machine-learning-y-ai\modulo-5\vision\bin\Debug\netcoreapp2.2\vision.pdb
+C:\proyectos\lil-azure-machine-learning-y-ai\modulo-5\vision\obj\Debug\netcoreapp2.2\vision.csprojAssemblyReference.cache
+C:\proyectos\lil-azure-machine-learning-y-ai\modulo-5\vision\obj\Debug\netcoreapp2.2\vision.csproj.CoreCompileInputs.cache
+C:\proyectos\lil-azure-machine-learning-y-ai\modulo-5\vision\obj\Debug\netcoreapp2.2\vision.AssemblyInfoInputs.cache
+C:\proyectos\lil-azure-machine-learning-y-ai\modulo-5\vision\obj\Debug\netcoreapp2.2\vision.AssemblyInfo.cs
+C:\proyectos\lil-azure-machine-learning-y-ai\modulo-5\vision\obj\Debug\netcoreapp2.2\vision.dll
+C:\proyectos\lil-azure-machine-learning-y-ai\modulo-5\vision\obj\Debug\netcoreapp2.2\vision.pdb
