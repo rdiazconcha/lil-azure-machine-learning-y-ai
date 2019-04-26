@@ -19,7 +19,7 @@ namespace vision
             var client = new ComputerVisionClient(credentials);
             client.Endpoint = endpoint;
 
-            //Leer los archivos
+            //Detección de objetos
 
             var files = Directory.GetFiles(Environment.CurrentDirectory, "*.jpg");
 
@@ -44,6 +44,8 @@ namespace vision
                     System.Console.WriteLine();
                 }
             }
+
+            //Detección de texto
 
             files = Directory.GetFiles(Environment.CurrentDirectory, "texto*.jpg");
 
