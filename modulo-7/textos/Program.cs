@@ -51,8 +51,20 @@ namespace textos
 
             foreach (var document in analysis.Documents)
             {
-                var language = document.DetectedLanguages.FirstOrDefault();
-                System.Console.WriteLine(language.Iso6391Name);
+                var language = document.DetectedLanguages.FirstOrDefault()?.Iso6391Name;
+
+
+                var multiInput = new List<MultiLanguageInput>();
+                multiInput.Add(new MultiLanguageInput(language, "1", text));
+                var multiBatch = new MultiLanguageBatchInput(multiInput);
+                var sentimentResult = client.SentimentAsync(false, multiBatch).Result;
+
+                foreach (var sentiment in sentimentResult.Documents)
+                {
+                    System.Console.WriteLine($"{text} : {sentiment.Score}");
+
+                }
+
             }
 
 
